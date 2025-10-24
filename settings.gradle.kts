@@ -21,4 +21,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "SIKFace"
 include(":app")
- 
+include(":facecore")
+include(":backend-ncnn")
+include(":backend-rknn")
+include(":preprocess")
